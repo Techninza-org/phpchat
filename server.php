@@ -41,7 +41,7 @@ $server = \Ratchet\Server\IoServer::factory(
             new Chat()
         )
     ),
-    3000
+    4000
 );
 
 $server->run();
